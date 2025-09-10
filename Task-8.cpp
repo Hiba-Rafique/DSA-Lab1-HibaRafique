@@ -20,11 +20,18 @@ int ReturnFirstOccurrenceOfSubString(string str, string substr){
     return -1;
     
 }
-
 int main(){
 
-    cout<< ReturnFirstOccurrenceOfSubString("hello", "lo");
+    string mainstring;
+    string substring;
 
+    cout<< "Enter a string: ";
+    cin>>mainstring;
+
+    cout<<"Enter a substring: ";
+    cin>>substring;
+
+    cout<< ReturnFirstOccurrenceOfSubString(mainstring, substring);
 
     return 0;
 }

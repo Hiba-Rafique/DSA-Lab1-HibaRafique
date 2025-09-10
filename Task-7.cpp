@@ -32,7 +32,7 @@ int main(){
     vector<int> indices = findIndicesOfElement(arr,arrlength,key);
 
     if(indices.size()==0)
-        cout<<"Key not found!";
+        cout<<"Key not found!"; // if the key doesnt exist in the array
 
     else{
 
